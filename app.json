@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "阿等Aden",
+    "slug": "aden-admin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/aden-logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/aden-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#eeebe1"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.aden.admin",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/aden-logo.png",
+        "backgroundColor": "#eeebe1"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e718f2d8-861b-413b-bd49-04489fcb2bd6"
+      }
+    }
+  }
+}
